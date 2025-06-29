@@ -1,0 +1,44 @@
+.navbar{
+  height: 60px;
+  padding: 0 25px;
+  border-radius: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.navbar a{
+  width: 120px;
+  font-size: larger;
+  font-weight: 700;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}
+
+.navbar span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+#navbarNav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#navbarNav ul{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+#navbarNav ul button{
+  color: white;
+  width: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: large;
+  background-color: blue;
+  border-radius: 11px;
+}

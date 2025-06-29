@@ -1,0 +1,78 @@
+/* Modal Overlay */
+
+.container_election{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+}
+
+.container_election .main_box_election{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 5px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  
+}
+.main_box_election .election-category{
+  /* border: 2px solid yellow; */
+  width: 30%;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Structure */
+.modal {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Modal Body */
+.modal-body {
+  margin-top: 10px;
+}
+
+/* Close Button */
+.close-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: darkred;
+}
+
+.modal-footer {
+  margin-top: 15px;
+  text-align: center;
+}

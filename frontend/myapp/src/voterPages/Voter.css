@@ -1,0 +1,63 @@
+/* General Container Styles */
+.container {
+  display: flex;
+  padding: 10px;
+}
+
+.sidebar {
+  width: 40%;
+  padding: 10px;
+}
+
+.main_box {
+  width: 70%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.voter-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card {
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.card-header h4 {
+  margin: 0;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar, .main_box {
+    width: 100%;
+  }
+}

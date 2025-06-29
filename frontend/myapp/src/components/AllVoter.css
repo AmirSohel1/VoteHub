@@ -1,0 +1,25 @@
+.container_voter{
+  width: 100%;
+  height: 100%;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_voter .container_table{
+  border-radius: 12px;
+  width: 95%;
+  height: 98%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 8px 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.container_table h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+
+
+
+
