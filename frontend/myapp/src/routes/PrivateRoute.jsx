@@ -1,13 +1,12 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
-// Assuming the useAuth hook is correctly implemented
 import { useAuth } from "../context/VoterAuth";
 
 /**
  * PrivateRoute Component
- * This component protects routes by checking the user's authentication status and role.
+ * Protects routes by checking the user's authentication status and role.
  * If the user is authenticated and has the required role, it renders the children.
- * Otherwise, it redirects them to the home page or login page.
+ * Otherwise, it redirects them to the login page.
  * @param {object} props - The component props.
  * @param {string} props.role - The required role to access the route ('admin' or 'voter').
  * @param {React.ReactNode} props.children - The child components to render if the user is authenticated.

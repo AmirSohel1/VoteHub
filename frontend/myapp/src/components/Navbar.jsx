@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useAuth } from "../context/VoterAuth";
 import { useNavigate } from "react-router-dom";
-import "./Navbar.css";
+// import? "./Navbar.css";
 function Navbar() {
   const [userName, setUserName] = useState("");
   const [Login, setLogin] = useState(false);
